@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@craftjs/core": "^0.2.12",
+    "copy-to-clipboard": "^3.3.3",
+    "lzutf8": "^0.6.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "tailwind-scrollbar": "^4.0.2",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {

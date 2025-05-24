@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import Text from './Text'
+import Button from './Button'
 
-const customise = () => {
+const Customise = () => {
+  
+
   return (
     <section className='h-[70vh] sm:w-[350vw] m-4 flex flex-col justify-start gap-4 border-1 border-gray-700 rounded p-3'>
+       
         <h1 className='mx-auto my-1 text-orange-600'>Customise your Website</h1>
         <hr className='text-orange-600'/>
        <ul className="list-disc pl-5">
@@ -24,4 +29,7 @@ const customise = () => {
   )
 }
 
-export default customise
+export default Customise
+
+
+
